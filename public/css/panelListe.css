@@ -1,0 +1,125 @@
+* {
+    font-family: Andale Mono, monospace;
+}
+
+body { 
+    margin: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #FCF5C7;
+    align-items: center;
+}
+
+.banner{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5em;
+}
+
+.logo{
+    width: 10%;
+    border-radius: 75px;
+}
+
+.logo img{
+    width: 100%;
+}
+
+.title{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFEE93;
+    padding: 1em 0;
+    margin: 1.5em;
+    font-size: 1.25em;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.subBanner{
+    margin-top: 2em;
+    display: flex;
+    flex-direction: row;
+    width: 87%;
+    justify-content: left;
+    gap: 17em;
+    align-items: center;
+}
+
+.subTitle{
+    width: 47.5%;
+    background-color: #FFEE93;
+    padding: 1em 0;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.subTitle span{
+    font-weight: bold;  
+}
+
+.main{
+    background-color: #FFEE93;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5em;
+    border-radius: 20px;
+    padding: 3em;
+    gap: 1em;   
+}
+
+.button{
+    background-color: #A0CED9;
+    padding: 0.7em 0.7em;
+    border-radius: 5px;
+}
+
+.button a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black ;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+}
+
+.content:not(:last-child){
+    padding-bottom: 1em;
+    border-bottom: 1px solid gray;
+}
+
+.content span{
+    width: 90%;
+    word-break:normal;
+}
+
+.content .btn_edit_delete{
+    display: flex;
+    width: 10%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.7em;
+}
+
+.content a img{
+    width: 1em;
+    height: 1em;
+}
+
+footer {
+    position: fixed;
+    bottom:0.5em;
+}
