@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>{% block title %}Welcome!{% endblock %}</title>
+        <link rel="stylesheet" href = "./css/panelListe.css" type = "text/css">
+    </head>
+    <body>
+        {% block body %}
+        <div class = "banner"> 
+            <div class = "logo"> 
+                <img src = "./media/logo.png" alt = "logo">
+            </div>
+            <div class ="title">
+                <span>Panel Administrateur - Espece</span>
+            </div>
+        </div>
+        <div class = "subBanner">
+                <div class = "button">
+                    <a href= "/"> → Retour </a>
+                </div>
+                <div class = "subTitle">
+                    <span>Liste des Especes</span>
+                </div>
+            </div>
+        <div class = "main">
+            <div class = "content">
+                <span> Espece n° X : Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat faucibus quam eu tristique. Cras ornare lacinia accumsan. Integer et finibus ligula, eu suscipit nibh. </span>
+                <div class = "btn_edit_delete">
+                    <a href = "/editEspece"><img src = "./media/pen.png" alt = "edit"></a>
+                    <a href = "/deleteEspece"><img src = "./media/bin.png" alt = "delete"></a>
+                </div>
+            </div><div class = "content">
+                <span> Espece n° X : Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat faucibus quam eu tristique. Cras ornare lacinia accumsan. Integer et finibus ligula, eu suscipit nibh. </span>
+                <div class = "btn_edit_delete">
+                    <a href = "/editEspece"><img src = "./media/pen.png" alt = "edit"></a>
+                    <a href = "/deleteEspece"><img src = "./media/bin.png" alt = "delete"></a>
+                </div>
+            </div>
+        </div>
+        <div class = "button">
+            <a href= "/ajoutEspece"> → Ajouter </a>
+        </div>
+        {% endblock %}
+    </body>
+
+    <footer>
+       <span> TURPAL ALI DJABRAILOV - BILAL TAOURI - NATHAN BRICCARD - ENZO LEPINE | PPE 4 </span> 
+    </footer> 
+
+</html>

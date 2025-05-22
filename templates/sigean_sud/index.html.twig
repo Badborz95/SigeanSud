@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>{% block title %}Welcome!{% endblock %}</title>
+        <link rel="stylesheet" href = "./css/index.css" type = "text/css">
+    </head>
+    <body>
+        {% block body %}
+        <div class = "banner"> 
+            <div class = "logo"> 
+                <img src = "./media/logo.png" alt = "logo">
+            </div>
+            <div class ="title">
+                <span>Panel Administrateur</span>
+            </div> 
+        </div>
+        <div class = "main">
+            <div class = "button">
+                <a href= "/listeEspece"> Panel èspece </a>
+            </div>
+            <div class = "button">
+                <a href= "/listeRepas"> Historique des repas </a>
+            </div>
+            <div class = "button">
+                <a href= "/listeMenu"> Panel Menu </a>
+            </div>
+            <div class = "button">
+                <a href= "/listeSoignant"> Panel Soignants </a>
+            </div>
+        </div>
+        {% endblock %}
+    </body>
+
+    <footer>
+       <span> TURPAL ALI DJABRAILOV - BILAL TAOURI - NATHAN BRICCARD - ENZO LEPINE | PPE 4 </span> 
+    </footer> 
+
+</html>

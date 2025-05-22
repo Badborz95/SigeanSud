@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>{% block title %}Welcome!{% endblock %}</title>
+        <link rel="stylesheet" href = "./css/panelListe.css" type = "text/css">
+    </head>
+    <body>
+        {% block body %}
+        <div class = "banner"> 
+            <div class = "logo"> 
+                <img src = "./media/logo.png" alt = "logo">
+            </div>
+            <div class ="title">
+                <span>Panel Administrateur - Modifier une espece</span>
+            </div>
+        </div>
+        <div class = "subBanner">
+                <div class = "button">
+                    <a href= "/listeEspece"> → Retour </a>
+                </div>
+                <div class = "subTitle">
+                    <span>Modifier l'espece</span>
+                </div>
+            </div>
+        <div class = "main">
+            <div class = "content">
+                <span> FORMULAIRE A CREER </span>
+            </div>
+        </div>
+        {% endblock %}
+    </body>
+
+    <footer>
+       <span> TURPAL ALI DJABRAILOV - BILAL TAOURI - NATHAN BRICCARD - ENZO LEPINE | PPE 4 </span> 
+    </footer> 
+
+</html>
